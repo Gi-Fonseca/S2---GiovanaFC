@@ -19,7 +19,11 @@ def calcular_preco(volume):
 
 # Função principal
 def main():
-    print("Bem-vindo ao sistema de cálculo de preço de piscina!")
+   print("Promoção especial de Piscinas!")
+    print("Confira nossas ofertas de piscinas:")
+    print("• Piscinas de 2000 a 3000 litros com 15% de desconto!")
+    print("• Piscinas de 3001 a 6000 litros com 30% de desconto!")
+    print("• Piscinas acima de 6001 litros com 20% de desconto!")
     try:
         volume = float(input("Digite o volume da piscina em litros: "))
         preco_final = calcular_preco(volume)
